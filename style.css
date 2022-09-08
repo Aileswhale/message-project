@@ -1,0 +1,108 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    background-color: rgb(3, 146, 146);
+}
+.mainDiv{
+    text-align: center;
+    padding: 4rem;
+    background-color: rgba(128, 128, 128, 0.865);
+    flex: 0 0 60%;
+}
+.input{
+    display: block;
+    margin: 1rem auto;
+    padding: 1rem 1.5rem;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    
+}
+.btn{
+    padding: 0.6rem 1.5rem;
+    border-radius: 7px;
+    background-color: rgba(168, 159, 159, 0.797);
+    border: none;
+    margin: 0 auto;
+    font-size: large;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+.msgP{
+    font-size: 2rem;
+    color: rgb(43, 2, 2);
+    font-weight: 400;
+}
+.msgOut{
+    font-size: 2rem;
+    color: rgba(190, 167, 167, 0.884);
+    font-weight: bolder;
+}
+
+@media (max-width: 426px) {
+    body {
+            min-height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: capitalize;
+            font-weight: 400;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: larger;
+            background-color: rgb(3, 146, 146);
+        }
+    
+        .mainDiv {
+            text-align: center;
+            padding: 2rem;
+            background-color: rgba(128, 128, 128, 0.865);
+            flex: 0 0 60%;
+        }
+    
+        .input {
+            display: block;
+            margin: 1rem auto;
+            padding:  1rem;
+            border-radius: 7px;
+            border: none;
+            outline: none;
+            font-size: 0.7rem;
+            font-weight: bolder;
+    
+        }
+    
+        .btn {
+            padding: 0.4rem 0.8rem;
+            border-radius: 7px;
+            background-color: rgba(168, 159, 159, 0.797);
+            border: none;
+            margin: 0 auto;
+            font-size: large;
+            text-transform: capitalize;
+            cursor: pointer;
+    
+        }
+    
+        .msgP {
+            font-size: 1rem;
+            color: rgb(43, 2, 2);
+            font-weight: bolder;
+        }
+    
+        .msgOut {
+            font-size: 1rem;
+            color: black;
+            font-weight: bolder;
+        }
+    
+       
+}
